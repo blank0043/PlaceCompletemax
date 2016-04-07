@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (C) 2015 Google Inc. All Rights Reserved.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+  -->
+<!-- scroll view is: park_scene.png -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/vertical_page_margin"
+        android:paddingLeft="@dimen/horizontal_page_margin"
+        android:paddingRight="@dimen/horizontal_page_margin"
+        android:paddingTop="@dimen/vertical_page_margin"
+        android:nestedScrollingEnabled="false"
+        android:onClick="onButtonClick">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:scaleType="fitEnd"
+            android:layout_alignBottom="@+id/place_attribution"
+            android:layout_alignRight="@+id/autocomplete_places"
+            android:layout_alignEnd="@+id/autocomplete_places"
+            android:layout_marginBottom="160dp"
+            android:background="#ffffff"
+            android:src="@drawable/park_scene_two"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete_places"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/autocomplete_hint"
+            android:singleLine="true"
+            android:layout_above="@+id/imageButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/powered_by_google_light"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="528dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="461dp"
+            android:id="@+id/imageView"/>
+
+        <TextView
+            android:id="@+id/place_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/place_attribution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text=""
+            android:paddingTop="@dimen/vertical_page_margin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="675dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageButton"
+            android:scaleType="fitCenter"
+            android:onClick="onButtonClick"
+            android:background="#ffffff"
+            android:src="@drawable/mic"
+            android:layout_alignBottom="@+id/place_details"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_clear"
+            android:src="@drawable/cloud"
+            android:scaleType="fitCenter"
+            android:background="#ffffff"
+            android:layout_alignTop="@+id/imageButton"
+            android:layout_toLeftOf="@+id/imageButton"
+            android:layout_toStartOf="@+id/imageButton"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="    D.A.N."
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/place_details"
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_alignEnd="@+id/imageView2"
+            android:textSize="70dp"
+            android:textIsSelectable="false"
+            android:textColor="#54baea"/>
+
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/Users/bryancam/Desktop/PlaceComplete/Application/src/main/res/layout/activity_main.xml -->

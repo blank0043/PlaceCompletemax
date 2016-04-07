@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-a3bfd1d4c8d23c7f08bb6beb5a41d920ae61c033.jar" />
+    </item>
+    <item
+        jar="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/classes-fc017782f3b6c2b0b3eb0968958eeeac1a5c221d.jar" />
+    </item>
+    <item
+        jar="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/classes-835e57ea3a2a5e0fa04d37dd5cd08551149d8126.jar" />
+    </item>
+    <item
+        jar="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/classes-a488ad2288d1f6f448008aedcc84654782e922cc.jar" />
+    </item>
+    <item
+        jar="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/classes-7337ed8fb09999a70b693f989762ba4f00a82e0e.jar" />
+    </item>
+    <item
+        jar="/Users/bryancam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-59ead20ff8e9b886a69de7c13e946fdbf76ab977.jar" />
+    </item>
+    <item
+        jar="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/classes-fa6c4e6ea3ab66da4a3dee81a9f8c3678fba1e55.jar" />
+    </item>
+    <item
+        jar="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/classes-5cae9fc085153ed12e778cd3780669e6e0143b4f.jar" />
+    </item>
+    <item
+        jar="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8c046c952177602c858ed41c8fc492c939bde9aa">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/classes-611470acfc6cae08de0f14afc653cbaed609c912.jar" />
+    </item>
+    <item
+        jar="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a0c456a59e1edab84702b48a626705aa1d830ccc">
+        <dex dex="/Users/bryancam/Desktop/PlaceComplete/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-9488b919ad5305e935453c9ae9a1e995f64c4e52.jar" />
+    </item>
+
+</items>
